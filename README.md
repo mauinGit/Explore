@@ -23,7 +23,7 @@ Dataset yang digunakan merupakan **Bike Sharing Dataset** yang terdiri dari dua 
 note: detail penjelasan tiap kolom bisa ditelusuri di hasil yang sudah di deploy atau melihat di code nya langsung
 
 ## ⚙️ Cara Menjalankan Proyek
-### 1️⃣ Menjalankan Notebook (Opsional)
+### Menjalankan Notebook (Opsional)
 Jika ingin menjalankan analisis awal menggunakan notebook:
 
 ```bash
@@ -36,13 +36,13 @@ streamlit run dashboard.py
 http://localhost:8501
 ```
 
-Akses Dashboard Online
+### Akses Dashboard Online
 Dashboard ini juga telah dideploy menggunakan Streamlit Cloud sehingga dapat diakses secara online melalui tautan berikut:
 ```bash
 https://explore-7zafjtjstappkcmopr4qd9p.streamlit.app/
 ```
 
-Beberapa insight utama yang diperoleh dari analisis data antara lain:
+### Beberapa insight utama yang diperoleh dari analisis data antara lain:
 1. Terjadi peningkatan signifikan jumlah penyewaan sepeda dari tahun 2011 ke 2012.
 2. Pola penyewaan menunjukkan tren musiman, dengan peningkatan pada pertengahan tahun dan penurunan di awal serta akhir tahun.
 3. Kondisi cuaca memiliki pengaruh besar terhadap jumlah penyewaan, di mana cuaca Baik menghasilkan penyewaan tertinggi.
@@ -51,5 +51,5 @@ Dari hasil insight yang ditemukan saya memberikan beberapa rekomendasi dan strat
 
 ## 🖼️ Screenshot Dashboard
 Tampilan awal (detail lebih lanjut bisa lihat di streamlit yang sudah di Deploy
-![Preview Dashboard](img/home description.png)
-![Preview Dashboard](img/down description.png)
+![Preview Dashboard](img/home_description.png)
+![Preview Dashboard](img/down_description.png)
